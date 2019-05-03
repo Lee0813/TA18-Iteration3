@@ -1,0 +1,69 @@
+.img_switch_wrap{
+
+	width: 100%;
+	position: relative;
+	cursor: pointer;
+}
+
+/* Hide initial properties */
+.img_switch_wrap>a>img+img{
+	display: none;
+}
+
+.img_switch_wrap>a .img_switch_contents_{
+	display: none;
+}
+
+/* Hide initial properties on hover */
+.img_switch_wrap:hover>a>img{
+	display: none;
+}
+
+.img_switch_wrap:hover>a .img_switch_contents_{
+	display: block;
+}
+
+.img_switch_wrap:hover>a .img_switch_contents{
+	display: none;
+}
+
+.img_switch_wrap:hover a>img+img{
+	display: block;
+}
+
+
+
+.img_switch_wrap img{
+	width: 100%;
+}
+
+
+.img_switch_contents,.img_switch_contents_{
+position: absolute;
+padding: 20px;
+left: 0;
+right: 0;
+line-height: 0px;
+
+}
+
+	.img_switch_wrap img{
+    display: block;
+}
+
+
+@media only screen and (max-width: 779px){
+	.img_switch_wrap,.img_switch_wrap img{
+		height: inherit !important;
+	}
+
+	.img_switch_wrap h2{
+		font-size: 16px !important;
+	}
+
+	.img_switch_wrap p{
+		font-size: 13px !important;
+	}
+
+
+}
