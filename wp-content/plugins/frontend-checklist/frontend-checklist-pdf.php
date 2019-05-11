@@ -10,7 +10,12 @@ $pdf->AddFont('DejaVu','','DejaVuSansCondensed.ttf',true);
 
 $pdf->SetFont('DejaVu','',20);
 $pdf->Cell(0,20, $_SESSION['frontend-checklist-pdf-title'][$listID], 0, 1, 'C');
-
+$pdf->SetFont('DejaVu','',18);
+date_default_timezone_set("Australia/Melbourne");
+$pdf->Cell(0,10, 'Name: ABC', 0, 1, 'C');
+$pdf->SetFont('DejaVu','',12);
+$pdf->Cell(0,5, 'Checklist printed on: '.date("d/m/y").' '. date("h:i:sa"), 0, 1, 'C');
+$pdf->Cell(0,10, '', 0, 1, 'C');
 $i = 0;
 $pdf->SetFont('DejaVu','',16);
 foreach($_SESSION['frontend-checklist-items'][$listID] as $item) {

@@ -115,7 +115,7 @@ class Frontend_Checklist {
 			$i = 0;
 			foreach ($items as $item) {
 				if ($item == '') break;
-				$output .= '<p><label><input type="checkbox" id="frontend-checklist-'.$item['fc_listID'].'-item-'.$i.'" onchange="frontend_checklist_checkbox_changed('.$item['fc_listID'].', '.$cookie.', '.$cookie_lifetime_days.')">'.$item['text'].'</label></p>';
+				$output .= '<p style="font-size:18px; font-family: Comic Sans MS; color: #db9423; "><label><input type="checkbox" style="width:22px; height:22px;" id="frontend-checklist-'.$item['fc_listID'].'-item-'.$i.'" style="margin-right: 7px" onchange="frontend_checklist_checkbox_changed('.$item['fc_listID'].', '.$cookie.', '.$cookie_lifetime_days.')">'.$item['text'].'</label></p>';
 				$i += 1;
 			}
 			
