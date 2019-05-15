@@ -31,7 +31,7 @@ You should have received a copy of the GNU General Public License
 define('FRONTEND_CHECKLIST_VERSION', '2.3.1');
 
 include_once("frontend-checklist-menu.php");
-include("style_css.inc");
+
 
 add_shortcode( 'frontend-checklist', array('Frontend_Checklist', 'output'));
 
@@ -99,7 +99,7 @@ class Frontend_Checklist {
 				$atts['linktext'] = __('Checklist', 'frontend-checklist');
 			}
 			
-			$output .= '<a style="color: rgb(255,255,255)" href="'.plugins_url('frontend-checklist-pdf.php?id='.$item['fc_listID'], __FILE__).'" target="_blank">';
+			$output .= '<a href="'.plugins_url('frontend-checklist-pdf.php?id='.$item['fc_listID'], __FILE__).'" target="_blank">';
 			$output .= esc_html($atts['linktext']);
 			$output .= '</a>';
 		
@@ -115,7 +115,7 @@ class Frontend_Checklist {
 			$i = 0;
 			foreach ($items as $item) {
 				if ($item == '') break;
-				$output .= '<p style="font-size:18px; font-family: Comic Sans MS; color: #db9423; "><label class="container"><input type="checkbox" id="frontend-checklist-'.$item['fc_listID'].'-item-'.$i.'" style="margin-right: 7px" onchange="frontend_checklist_checkbox_changed('.$item['fc_listID'].', '.$cookie.', '.$cookie_lifetime_days.')">'.$item['text'].'<span class="checkmark"></span></label></p>';
+				$output .= '<p style="font-size:18px; font-family: Comic Sans MS; color: #db9423; "><label><input type="checkbox" style="width:22px; height:22px;" id="frontend-checklist-'.$item['fc_listID'].'-item-'.$i.'" style="margin-right: 7px" onchange="frontend_checklist_checkbox_changed('.$item['fc_listID'].', '.$cookie.', '.$cookie_lifetime_days.')">'.$item['text'].'</label></p>';
 				$i += 1;
 			}
 			

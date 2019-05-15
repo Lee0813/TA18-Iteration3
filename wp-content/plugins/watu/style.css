@@ -24,6 +24,8 @@ form.quiz-form {
 
 .answer span {
 	padding-right:20px;
+	font-size:18px; 
+	
 }
 .user-answer span {
 	font-weight:bold;

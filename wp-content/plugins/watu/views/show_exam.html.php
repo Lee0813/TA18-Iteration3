@@ -3,7 +3,7 @@
 <form action="" method="post" class="quiz-form" id="quiz-<?php echo $exam_id?>" <?php if(!empty($exam->no_ajax)):?>onsubmit="return Watu.submitResult(this)"<?php endif;?>>
 <?php
 if(!empty($exam->notify_user) and empty($user_ID)):?>
-	<p class="watu_taker_email"><?php _e('Please enter your email:', 'watu')?> <input type="text" name="watu_taker_email" id="watuTakerEmail"></p>
+	<p class="watu_taker_email"> <?php _e('Please enter your email:', 'watu')?><input type="text" name="watu_taker_email" id="watuTakerEmail"></p>
 <?php
 endif; // end showing enter email field
 $question_count = 1;

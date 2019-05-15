@@ -1,0 +1,747 @@
+0000.000 (0) Opened log file at time: Wed, 15 May 2019 06:40:29 +0000 on https://ewizard.ga
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.14 WP: 5.1.1 PHP: 7.2.16 (fpm-fcgi, Linux ip-172-31-14-165 4.4.0-1079-aws #89-Ubuntu SMP Tue Mar 26 15:25:52 UTC 2019 x86_64) MySQL: 8.0.15 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.7M | 6M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.013 (0) Free space on disk containing Updraft's temporary directory: 4067.7 MB
+0000.020 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.031 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.052 (0) Set semaphore last lock (fd) time to 2019-05-15 06:40:29
+0000.058 (0) Semaphore lock (fd) complete
+0000.088 (0) Backup run: resumption=0, nonce=ac54350f6b7d, file_nonce=ac54350f6b7d begun at=1557902429 (0s ago), job type=backup
+0000.101 (0) Scheduling a resumption (1) after 359 seconds (1557902788) in case this run gets aborted
+0000.116 (0) Checking if we have a zip executable available
+0000.121 (0) Testing: /usr/bin/zip
+0000.130 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.135 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.141 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.147 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.152 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.160 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.166 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.172 (0) Working binary zip found: /usr/bin/zip
+0000.184 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.189 (0) Creation of backups of directories: beginning
+0000.207 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.405 (0) Total entities for the zip file: 2110 directories, 10005 files (0 skipped as non-modified), 136.3 MB
+0000.415 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.421 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.427 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.437 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.444 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.449 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 10005 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.256 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: size is now: 4.90 MB
+0001.272 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 600 files added (on-disk size: 4978.4 KB)
+0001.278 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 700 files added (on-disk size: 4978.4 KB)
+0001.286 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 800 files added (on-disk size: 4978.4 KB)
+0001.293 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 900 files added (on-disk size: 4978.4 KB)
+0001.301 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 1000 files added (on-disk size: 4978.4 KB)
+0001.306 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 10005 files batched, 501 (1002) added so far); re-opening (prior size: 4978.4 KB)
+0001.888 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: size is now: 6.30 MB
+0001.903 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 1100 files added (on-disk size: 6490 KB)
+0001.911 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 1200 files added (on-disk size: 6490 KB)
+0001.919 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 1300 files added (on-disk size: 6490 KB)
+0001.927 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 1400 files added (on-disk size: 6490 KB)
+0001.938 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 1500 files added (on-disk size: 6490 KB)
+0001.944 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.7 MB, 10005 files batched, 501 (1503) added so far); re-opening (prior size: 6490 KB)
+0002.819 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: size is now: 14.50 MB
+0002.836 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 1600 files added (on-disk size: 14814.6 KB)
+0002.849 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 1700 files added (on-disk size: 14814.6 KB)
+0002.864 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 1800 files added (on-disk size: 14814.6 KB)
+0002.871 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 1900 files added (on-disk size: 14814.6 KB)
+0002.878 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 2000 files added (on-disk size: 14814.6 KB)
+0002.883 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 10005 files batched, 501 (2004) added so far); re-opening (prior size: 14814.6 KB)
+0003.497 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 2100 files added (on-disk size: 16649.4 KB)
+0003.505 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 2200 files added (on-disk size: 16649.4 KB)
+0003.512 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 2300 files added (on-disk size: 16649.4 KB)
+0003.520 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 2400 files added (on-disk size: 16649.4 KB)
+0003.526 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 2500 files added (on-disk size: 16649.4 KB)
+0003.531 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.1 MB, 10005 files batched, 501 (2505) added so far); re-opening (prior size: 16649.4 KB)
+0004.640 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: size is now: 19.80 MB
+0004.656 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 2600 files added (on-disk size: 20242.4 KB)
+0004.664 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 2700 files added (on-disk size: 20242.4 KB)
+0004.670 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 2800 files added (on-disk size: 20242.4 KB)
+0004.679 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 2900 files added (on-disk size: 20242.4 KB)
+0004.687 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 3000 files added (on-disk size: 20242.4 KB)
+0004.692 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 10005 files batched, 501 (3006) added so far); re-opening (prior size: 20242.4 KB)
+0005.351 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 3100 files added (on-disk size: 22899.2 KB)
+0005.358 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 3200 files added (on-disk size: 22899.2 KB)
+0005.364 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 3300 files added (on-disk size: 22899.2 KB)
+0005.371 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 3400 files added (on-disk size: 22899.2 KB)
+0005.377 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 3500 files added (on-disk size: 22899.2 KB)
+0005.383 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 10005 files batched, 501 (3507) added so far); re-opening (prior size: 22899.2 KB)
+0005.936 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 3600 files added (on-disk size: 23931.2 KB)
+0005.944 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 3700 files added (on-disk size: 23931.2 KB)
+0005.952 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 3800 files added (on-disk size: 23931.2 KB)
+0005.959 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 3900 files added (on-disk size: 23931.2 KB)
+0005.966 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 4000 files added (on-disk size: 23931.2 KB)
+0005.972 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 10005 files batched, 501 (4008) added so far); re-opening (prior size: 23931.2 KB)
+0006.784 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 4100 files added (on-disk size: 27037.3 KB)
+0006.793 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 4200 files added (on-disk size: 27037.3 KB)
+0006.799 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 4300 files added (on-disk size: 27037.3 KB)
+0006.809 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 4400 files added (on-disk size: 27037.3 KB)
+0006.816 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 4500 files added (on-disk size: 27037.3 KB)
+0006.823 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 MB, 10005 files batched, 501 (4509) added so far); re-opening (prior size: 27037.3 KB)
+0007.463 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 4600 files added (on-disk size: 28140.5 KB)
+0007.471 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 4700 files added (on-disk size: 28140.5 KB)
+0007.477 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 4800 files added (on-disk size: 28140.5 KB)
+0007.485 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 4900 files added (on-disk size: 28140.5 KB)
+0007.492 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 5000 files added (on-disk size: 28140.5 KB)
+0007.498 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.1 MB, 10005 files batched, 501 (5010) added so far); re-opening (prior size: 28140.5 KB)
+0008.055 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 5100 files added (on-disk size: 29513.9 KB)
+0008.061 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 5200 files added (on-disk size: 29513.9 KB)
+0008.067 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 5300 files added (on-disk size: 29513.9 KB)
+0008.074 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 5400 files added (on-disk size: 29513.9 KB)
+0008.080 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 5500 files added (on-disk size: 29513.9 KB)
+0008.086 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 10005 files batched, 501 (5511) added so far); re-opening (prior size: 29513.9 KB)
+0008.786 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 5600 files added (on-disk size: 31297.8 KB)
+0008.794 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 5700 files added (on-disk size: 31297.8 KB)
+0008.802 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 5800 files added (on-disk size: 31297.8 KB)
+0008.808 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 5900 files added (on-disk size: 31297.8 KB)
+0008.814 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 6000 files added (on-disk size: 31297.8 KB)
+0008.819 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 10005 files batched, 501 (6012) added so far); re-opening (prior size: 31297.8 KB)
+0009.422 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 6100 files added (on-disk size: 32322.9 KB)
+0009.429 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 6200 files added (on-disk size: 32322.9 KB)
+0009.436 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 6300 files added (on-disk size: 32322.9 KB)
+0009.445 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 6400 files added (on-disk size: 32322.9 KB)
+0009.455 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 6500 files added (on-disk size: 32322.9 KB)
+0009.459 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 10005 files batched, 501 (6513) added so far); re-opening (prior size: 32322.9 KB)
+0009.994 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 6600 files added (on-disk size: 33054 KB)
+0010.000 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 6700 files added (on-disk size: 33054 KB)
+0010.009 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 6800 files added (on-disk size: 33054 KB)
+0010.016 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 6900 files added (on-disk size: 33054 KB)
+0010.024 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 7000 files added (on-disk size: 33054 KB)
+0010.027 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 10005 files batched, 501 (7014) added so far); re-opening (prior size: 33054 KB)
+0010.706 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 7100 files added (on-disk size: 34517 KB)
+0010.717 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 7200 files added (on-disk size: 34517 KB)
+0010.731 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 7300 files added (on-disk size: 34517 KB)
+0010.744 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 7400 files added (on-disk size: 34517 KB)
+0010.754 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 7500 files added (on-disk size: 34517 KB)
+0010.766 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.2 MB, 10005 files batched, 501 (7515) added so far); re-opening (prior size: 34517 KB)
+0011.367 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 7600 files added (on-disk size: 35421.2 KB)
+0011.374 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 7700 files added (on-disk size: 35421.2 KB)
+0011.381 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 7800 files added (on-disk size: 35421.2 KB)
+0011.388 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 7900 files added (on-disk size: 35421.2 KB)
+0011.397 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 8000 files added (on-disk size: 35421.2 KB)
+0011.403 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 MB, 10005 files batched, 501 (8016) added so far); re-opening (prior size: 35421.2 KB)
+0012.921 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 8100 files added (on-disk size: 39060 KB)
+0012.931 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 8200 files added (on-disk size: 39060 KB)
+0012.940 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 8300 files added (on-disk size: 39060 KB)
+0012.946 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 8400 files added (on-disk size: 39060 KB)
+0012.954 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 8500 files added (on-disk size: 39060 KB)
+0012.961 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.9 MB, 10005 files batched, 501 (8517) added so far); re-opening (prior size: 39060 KB)
+0014.883 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 8600 files added (on-disk size: 43827.4 KB)
+0014.891 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 8700 files added (on-disk size: 43827.4 KB)
+0014.898 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 8800 files added (on-disk size: 43827.4 KB)
+0014.906 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 8900 files added (on-disk size: 43827.4 KB)
+0014.914 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 9000 files added (on-disk size: 43827.4 KB)
+0014.921 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 10005 files batched, 501 (9018) added so far); re-opening (prior size: 43827.4 KB)
+0016.121 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 9100 files added (on-disk size: 44667.6 KB)
+0016.130 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 9200 files added (on-disk size: 44667.6 KB)
+0016.138 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 9300 files added (on-disk size: 44667.6 KB)
+0016.146 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 9400 files added (on-disk size: 44667.6 KB)
+0016.154 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 9500 files added (on-disk size: 44667.6 KB)
+0016.159 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 MB, 10005 files batched, 501 (9519) added so far); re-opening (prior size: 44667.6 KB)
+0017.697 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 9600 files added (on-disk size: 47325.1 KB)
+0017.706 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 9700 files added (on-disk size: 47325.1 KB)
+0017.714 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 9800 files added (on-disk size: 47325.1 KB)
+0017.723 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 9900 files added (on-disk size: 47325.1 KB)
+0017.732 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip.tmp: 10000 files added (on-disk size: 47325.1 KB)
+0020.151 (0) Created plugins zip (0) - 48988.4 KB in 19.9 s (2457.2 KB/s) (sha1: 906331888bbfea48aae2754efb41b43457dabd15, sha256: 140fcdb0ed55f094a063f56283be25b557fb47841e1a3a14969ace6c7dbd140b)
+0020.164 (0) Beginning creation of dump of themes (split every: 400 MB)
+0020.254 (0) Total entities for the zip file: 139 directories, 556 files (0 skipped as non-modified), 6.5 MB
+0020.263 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.271 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.277 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.286 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0020.292 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0020.299 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 556 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0020.804 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip.tmp: size is now: 2.10 MB
+0020.963 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip.tmp: size is now: 2.70 MB
+0021.028 (0) Created themes zip (0) - 2805.2 KB in 0.9 s (3275.5 KB/s) (sha1: c76e6f57499377616f0dc462247f92dcc00fb8fd, sha256: 02637c1dea8e01c096d7d698938cf841374ba1686e97304fe4d24ecaa69060f1)
+0021.041 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0021.047 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads
+0021.053 (0) finding files: astra-sites: adding to list (1)
+0021.059 (0) finding files: visualizer: adding to list (2)
+0021.065 (0) finding files: 2019: adding to list (3)
+0021.071 (0) finding files: pum: adding to list (4)
+0021.076 (0) finding files: wp_quiz-result-images: adding to list (5)
+0021.082 (0) finding files: elementor: adding to list (6)
+0021.087 (0) finding files: wp-statistics: adding to list (7)
+0021.093 (0) finding files: wp_quiz-import: adding to list (8)
+0021.098 (0) finding files: 2018: adding to list (9)
+0021.105 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0021.157 (0) Total entities for the zip file: 18 directories, 1148 files (0 skipped as non-modified), 263.7 MB
+0021.166 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0021.175 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (27 MB, 1148 files batched, 185 (185) added so far); re-opening (prior size: 0 KB)
+0021.638 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: size is now: 26.60 MB
+0021.655 (0) A useful amount of data was added after this amount of zip processing: 1 s (normalised: 0.9 s, rate: 27179.8 KB/s)
+0021.667 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.0160501003265, normalised_time=0.94187733226983, max_time=21.660526990891, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0021.679 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 200 files added (on-disk size: 27234.1 KB)
+0021.687 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 300 files added (on-disk size: 27234.1 KB)
+0021.694 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 400 files added (on-disk size: 27234.1 KB)
+0021.701 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 500 files added (on-disk size: 27234.1 KB)
+0021.709 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 600 files added (on-disk size: 27234.1 KB)
+0021.718 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (124.3 MB, 1148 files batched, 501 (686) added so far); re-opening (prior size: 27234.1 KB)
+0026.066 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: size is now: 150.60 MB
+0026.093 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 700 files added (on-disk size: 154231.7 KB)
+0026.103 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 800 files added (on-disk size: 154231.7 KB)
+0026.112 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 900 files added (on-disk size: 154231.7 KB)
+0026.121 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 1000 files added (on-disk size: 154231.7 KB)
+0026.130 (0) Zip: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: 1100 files added (on-disk size: 154231.7 KB)
+0036.322 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip.tmp: size is now: 230.80 MB
+0040.251 (0) Created uploads zip (0) - 236323.1 KB in 19.1 s (12347 KB/s) (sha1: 9c29ece1ebb3ad9ba28d9a8d985d423726b2401f, sha256: 5bac907b7f019572f4e689bf68551e886643d10c762079747b52483e2ad962a4)
+0040.267 (0) Beginning backup of other directories found in the content directory (index: 0)
+0040.272 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0040.277 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content
+0040.281 (0) finding files: languages-old-old: adding to list (1)
+0040.286 (0) finding files: plugins-old-old: adding to list (2)
+0040.291 (0) finding files: themes-old: adding to list (3)
+0040.297 (0) finding files: upgrade: skipping: excluded by options
+0040.302 (0) finding files: languages: adding to list (4)
+0040.307 (0) finding files: ari-adminer-config.php-old: adding to list (5)
+0040.313 (0) finding files: themes-old-old: adding to list (6)
+0040.318 (0) finding files: languages-old: adding to list (7)
+0040.324 (0) finding files: index.php: adding to list (8)
+0040.330 (0) finding files: uploads-old: adding to list (9)
+0040.336 (0) finding files: updraft: skipping: this is the updraft directory
+0040.341 (0) finding files: themes: skipping: this is the themes directory
+0040.347 (0) finding files: plugins: skipping: this is the plugins directory
+0040.352 (0) finding files: uploads: skipping: this is the uploads directory
+0040.357 (0) finding files: themes-old-old-old: adding to list (10)
+0040.362 (0) finding files: plugins-old: adding to list (11)
+0040.388 (0) Total entities for the zip file: 15 directories, 2 files (0 skipped as non-modified), 0 MB
+0040.405 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-others.zip.tmp: size is now: 0.00 MB
+0040.431 (0) Created others zip (0) - 2.9 KB in 0.1 s (47 KB/s) (sha1: 825c06dc84c2edf811c15a711e4ade094decb5b7, sha256: 7bc6077552f14dc1ba2b36aecbc7f272adb2839a151e0bf3f3b8debfe3442b59)
+0040.460 (0) Saving backup status to database (elements: 8)
+0040.475 (0) Beginning creation of database dump (WordPress DB)
+0040.563 (0) Table wp_options: Total expected rows (approximate): 445
+0040.664 (0) Table wp_options: Total rows added: 452 in 0.10 seconds
+0040.671 (0) Table wp_options: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_options.table.gz - 222.2 KB)
+0040.694 (0) Table wp_users: Total expected rows (approximate): 1
+0040.701 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0040.706 (0) Table wp_users: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_users.table.gz - 0.6 KB)
+0040.730 (0) Table wp_usermeta: Total expected rows (approximate): 39
+0040.737 (0) Table wp_usermeta: Total rows added: 39 in 0.00 seconds
+0040.744 (0) Table wp_usermeta: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_usermeta.table.gz - 2.2 KB)
+0040.766 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0040.775 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0040.780 (0) Table wp_commentmeta: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0040.804 (0) Table wp_comments: Total expected rows (approximate): 0
+0040.814 (0) Table wp_comments: Total rows added: 0 in 0.01 seconds
+0040.820 (0) Table wp_comments: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_comments.table.gz - 0.5 KB)
+0041.359 (0) Table wp_links: Total expected rows (approximate): 0
+0041.378 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0041.385 (0) Table wp_links: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_links.table.gz - 0.5 KB)
+0041.412 (0) Table wp_postmeta: Total expected rows (approximate): 7045
+0045.441 (0) Table wp_postmeta: Total rows added: 7172 in 4.02 seconds
+0045.449 (0) Table wp_postmeta: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_postmeta.table.gz - 2992.8 KB)
+0045.478 (0) Table wp_posts: Total expected rows (approximate): 1337
+0045.714 (0) Table wp_posts: Total rows added: 1394 in 0.23 seconds
+0045.721 (0) Table wp_posts: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_posts.table.gz - 195.9 KB)
+0045.746 (0) Table wp_term_relationships: Total expected rows (approximate): 14
+0045.756 (0) Table wp_term_relationships: Total rows added: 14 in 0.00 seconds
+0045.762 (0) Table wp_term_relationships: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0045.789 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0045.798 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0045.805 (0) Table wp_term_taxonomy: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0045.831 (0) Table wp_termmeta: Total expected rows (approximate): 2
+0045.861 (0) Table wp_termmeta: Total rows added: 2 in 0.03 seconds
+0045.893 (0) Table wp_termmeta: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_termmeta.table.gz - 0.4 KB)
+0045.918 (0) Table wp_terms: Total expected rows (approximate): 3
+0045.927 (0) Table wp_terms: Total rows added: 3 in 0.00 seconds
+0045.933 (0) Table wp_terms: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_terms.table.gz - 0.4 KB)
+0045.960 (0) Table wp_fc_items: Total expected rows (approximate): 6
+0045.968 (0) Table wp_fc_items: Total rows added: 6 in 0.00 seconds
+0045.974 (0) Table wp_fc_items: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_fc_items.table.gz - 0.5 KB)
+0046.001 (0) Table wp_fc_lists: Total expected rows (approximate): 1
+0046.013 (0) Table wp_fc_lists: Total rows added: 1 in 0.01 seconds
+0046.019 (0) Table wp_fc_lists: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_fc_lists.table.gz - 0.4 KB)
+0046.044 (0) Table wp_fuletype: Total expected rows (approximate): 7
+0046.057 (0) Table wp_fuletype: Total rows added: 7 in 0.01 seconds
+0046.064 (0) Table wp_fuletype: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_fuletype.table.gz - 0.4 KB)
+0046.088 (0) Table wp_nextend2_image_storage: Total expected rows (approximate): 4
+0046.099 (0) Table wp_nextend2_image_storage: Total rows added: 4 in 0.01 seconds
+0046.106 (0) Table wp_nextend2_image_storage: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_image_storage.table.gz - 0.7 KB)
+0046.133 (0) Table wp_nextend2_section_storage: Total expected rows (approximate): 2
+0046.142 (0) Table wp_nextend2_section_storage: Total rows added: 2 in 0.00 seconds
+0046.149 (0) Table wp_nextend2_section_storage: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_section_storage.table.gz - 0.5 KB)
+0046.174 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0046.186 (0) Table wp_nextend2_smartslider3_generators: Total rows added: 0 in 0.01 seconds
+0046.192 (0) Table wp_nextend2_smartslider3_generators: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_smartslider3_generators.table.gz - 0.3 KB)
+0046.217 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (approximate): 2
+0046.225 (0) Table wp_nextend2_smartslider3_sliders: Total rows added: 2 in 0.00 seconds
+0046.232 (0) Table wp_nextend2_smartslider3_sliders: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_smartslider3_sliders.table.gz - 1.7 KB)
+0046.258 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 1
+0046.267 (0) Table wp_nextend2_smartslider3_sliders_xref: Total rows added: 1 in 0.00 seconds
+0046.273 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz - 0.3 KB)
+0046.297 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (approximate): 3
+0046.307 (0) Table wp_nextend2_smartslider3_slides: Total rows added: 3 in 0.00 seconds
+0046.312 (0) Table wp_nextend2_smartslider3_slides: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_smartslider3_slides.table.gz - 2 KB)
+0046.338 (0) Table wp_revisr: Total expected rows (approximate): 6
+0046.348 (0) Table wp_revisr: Total rows added: 6 in 0.01 seconds
+0046.354 (0) Table wp_revisr: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_revisr.table.gz - 0.6 KB)
+0046.378 (0) Table wp_rj_quickcharts: Total expected rows (approximate): 0
+0046.392 (0) Table wp_rj_quickcharts: Total rows added: 0 in 0.01 seconds
+0046.398 (0) Table wp_rj_quickcharts: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_rj_quickcharts.table.gz - 0.4 KB)
+0046.424 (0) Table wp_state_wise_consumption: Total expected rows (approximate): 7
+0046.434 (0) Table wp_state_wise_consumption: Total rows added: 7 in 0.00 seconds
+0046.443 (0) Table wp_state_wise_consumption: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_state_wise_consumption.table.gz - 0.4 KB)
+0046.469 (0) Table wp_statistics_exclusions: Total expected rows (approximate): 0
+0046.478 (0) Table wp_statistics_exclusions: Total rows added: 0 in 0.00 seconds
+0046.484 (0) Table wp_statistics_exclusions: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_exclusions.table.gz - 0.3 KB)
+0046.509 (0) Table wp_statistics_historical: Total expected rows (approximate): 0
+0046.518 (0) Table wp_statistics_historical: Total rows added: 0 in 0.00 seconds
+0046.524 (0) Table wp_statistics_historical: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_historical.table.gz - 0.3 KB)
+0046.552 (0) Table wp_statistics_pages: Total expected rows (approximate): 190
+0046.562 (0) Table wp_statistics_pages: Total rows added: 190 in 0.00 seconds
+0046.569 (0) Table wp_statistics_pages: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_pages.table.gz - 2 KB)
+0046.591 (0) Table wp_statistics_search: Total expected rows (approximate): 9
+0046.602 (0) Table wp_statistics_search: Total rows added: 9 in 0.00 seconds
+0046.608 (0) Table wp_statistics_search: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_search.table.gz - 0.5 KB)
+0046.633 (0) Table wp_statistics_useronline: Total expected rows (approximate): 0
+0046.640 (0) Table wp_statistics_useronline: Total rows added: 0 in 0.00 seconds
+0046.646 (0) Table wp_statistics_useronline: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_useronline.table.gz - 0.4 KB)
+0046.669 (0) Table wp_statistics_visit: Total expected rows (approximate): 14
+0046.678 (0) Table wp_statistics_visit: Total rows added: 14 in 0.00 seconds
+0046.684 (0) Table wp_statistics_visit: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_visit.table.gz - 0.6 KB)
+0046.707 (0) Table wp_statistics_visitor: Total expected rows (approximate): 568
+0046.727 (0) Table wp_statistics_visitor: Total rows added: 568 in 0.02 seconds
+0046.733 (0) Table wp_statistics_visitor: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_visitor.table.gz - 9.1 KB)
+0046.768 (0) Table wp_watu_answer: Total expected rows (approximate): 30
+0046.777 (0) Table wp_watu_answer: Total rows added: 30 in 0.00 seconds
+0046.784 (0) Table wp_watu_answer: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_watu_answer.table.gz - 1 KB)
+0046.809 (0) Table wp_watu_grading: Total expected rows (approximate): 7
+0046.818 (0) Table wp_watu_grading: Total rows added: 7 in 0.00 seconds
+0046.823 (0) Table wp_watu_grading: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_watu_grading.table.gz - 0.6 KB)
+0046.954 (0) Table wp_watu_master: Total expected rows (approximate): 2
+0047.002 (0) Table wp_watu_master: Total rows added: 2 in 0.00 seconds
+0047.038 (0) Table wp_watu_master: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_watu_master.table.gz - 1.1 KB)
+0047.063 (0) Table wp_watu_question: Total expected rows (approximate): 5
+0047.072 (0) Table wp_watu_question: Total rows added: 5 in 0.00 seconds
+0047.079 (0) Table wp_watu_question: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_watu_question.table.gz - 1 KB)
+0047.102 (0) Table wp_watu_takings: Total expected rows (approximate): 69
+0047.119 (0) Table wp_watu_takings: Total rows added: 69 in 0.01 seconds
+0047.125 (0) Table wp_watu_takings: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_watu_takings.table.gz - 6.4 KB)
+0047.150 (0) Table wp_wp_quiz_play_data: Total expected rows (approximate): 0
+0047.161 (0) Table wp_wp_quiz_play_data: Total rows added: 0 in 0.00 seconds
+0047.168 (0) Table wp_wp_quiz_play_data: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_wp_quiz_play_data.table.gz - 0.4 KB)
+0047.190 (0) Table wp_wpdatacharts: Total expected rows (approximate): 0
+0047.200 (0) Table wp_wpdatacharts: Total rows added: 0 in 0.00 seconds
+0047.207 (0) Table wp_wpdatacharts: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_wpdatacharts.table.gz - 0.3 KB)
+0047.233 (0) Table wp_wpdatatables: Total expected rows (approximate): 0
+0047.243 (0) Table wp_wpdatatables: Total rows added: 0 in 0.00 seconds
+0047.248 (0) Table wp_wpdatatables: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_wpdatatables.table.gz - 0.6 KB)
+0047.272 (0) Table wp_wpdatatables_columns: Total expected rows (approximate): 0
+0047.283 (0) Table wp_wpdatatables_columns: Total rows added: 0 in 0.00 seconds
+0047.288 (0) Table wp_wpdatatables_columns: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_wpdatatables_columns.table.gz - 0.7 KB)
+0047.312 (0) Table wp_year_consumption: Total expected rows (approximate): 4
+0047.320 (0) Table wp_year_consumption: Total rows added: 4 in 0.00 seconds
+0047.327 (0) Table wp_year_consumption: finishing file (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_year_consumption.table.gz - 0.3 KB)
+0047.350 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_options.table.gz (1/41): adding to final database dump
+0047.447 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_users.table.gz (2/41): adding to final database dump
+0047.454 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_usermeta.table.gz (3/41): adding to final database dump
+0047.461 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_commentmeta.table.gz (4/41): adding to final database dump
+0047.468 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_comments.table.gz (5/41): adding to final database dump
+0047.474 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_links.table.gz (6/41): adding to final database dump
+0047.480 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_postmeta.table.gz (7/41): adding to final database dump
+0050.388 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_posts.table.gz (8/41): adding to final database dump
+0050.552 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_term_relationships.table.gz (9/41): adding to final database dump
+0050.559 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_term_taxonomy.table.gz (10/41): adding to final database dump
+0050.566 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_termmeta.table.gz (11/41): adding to final database dump
+0050.571 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_terms.table.gz (12/41): adding to final database dump
+0050.577 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_fc_items.table.gz (13/41): adding to final database dump
+0050.584 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_fc_lists.table.gz (14/41): adding to final database dump
+0050.589 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_fuletype.table.gz (15/41): adding to final database dump
+0050.595 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_image_storage.table.gz (16/41): adding to final database dump
+0050.601 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_section_storage.table.gz (17/41): adding to final database dump
+0050.607 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_smartslider3_generators.table.gz (18/41): adding to final database dump
+0050.612 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_smartslider3_sliders.table.gz (19/41): adding to final database dump
+0050.619 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (20/41): adding to final database dump
+0050.624 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_nextend2_smartslider3_slides.table.gz (21/41): adding to final database dump
+0050.630 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_revisr.table.gz (22/41): adding to final database dump
+0050.636 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_rj_quickcharts.table.gz (23/41): adding to final database dump
+0050.641 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_state_wise_consumption.table.gz (24/41): adding to final database dump
+0050.646 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_exclusions.table.gz (25/41): adding to final database dump
+0050.653 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_historical.table.gz (26/41): adding to final database dump
+0050.658 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_pages.table.gz (27/41): adding to final database dump
+0050.664 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_search.table.gz (28/41): adding to final database dump
+0050.671 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_useronline.table.gz (29/41): adding to final database dump
+0050.676 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_visit.table.gz (30/41): adding to final database dump
+0050.681 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_statistics_visitor.table.gz (31/41): adding to final database dump
+0050.692 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_watu_answer.table.gz (32/41): adding to final database dump
+0050.697 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_watu_grading.table.gz (33/41): adding to final database dump
+0050.702 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_watu_master.table.gz (34/41): adding to final database dump
+0050.709 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_watu_question.table.gz (35/41): adding to final database dump
+0050.716 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_watu_takings.table.gz (36/41): adding to final database dump
+0050.728 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_wp_quiz_play_data.table.gz (37/41): adding to final database dump
+0050.733 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_wpdatacharts.table.gz (38/41): adding to final database dump
+0050.739 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_wpdatatables.table.gz (39/41): adding to final database dump
+0050.745 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_wpdatatables_columns.table.gz (40/41): adding to final database dump
+0050.750 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db-table-wp_year_consumption.table.gz (41/41): adding to final database dump
+0050.764 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db.gz: finished writing out complete database file (3424 KB)
+0050.835 (0) Total database tables backed up: 41 (backup_2019-05-15-0640_eWizard_ac54350f6b7d-db.gz, size: 3522809, sha256)
+0050.882 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0050.887 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0050.892 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0050.897 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-others.zip: others: This file has not yet been successfully uploaded: will queue
+0050.903 (0) backup_2019-05-15-0640_eWizard_ac54350f6b7d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0050.909 (0) Saving backup history. Total backup size: 284.7 MB
+0050.926 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0050.946 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0050.953 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-324d5e8f332b94dff117c2ff10a48118)
+0056.772 (0) Google Drive: quota usage: used=2680.7 MB, total=10488440.7 MB, available=10485760 MB
+0056.778 (0) Google Drive: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip: Attempting to upload to Google Drive (into folder id: 1WmUKitSDNxcopBkIN8U-K8y23D-Lq2Yp)
+0058.539 (0) Googledrive chunked upload: 2.1 % uploaded (1048576)
+0059.548 (0) Googledrive chunked upload: 4.2 % uploaded (2097152)
+0060.561 (0) Googledrive chunked upload: 6.3 % uploaded (3145728)
+0061.409 (0) Googledrive chunked upload: 8.4 % uploaded (4194304)
+0062.264 (0) Googledrive chunked upload: 10.5 % uploaded (5242880)
+0063.271 (0) Googledrive chunked upload: 12.5 % uploaded (6291456)
+0064.072 (0) Googledrive chunked upload: 14.6 % uploaded (7340032)
+0065.082 (0) Googledrive chunked upload: 16.7 % uploaded (8388608)
+0066.080 (0) Googledrive chunked upload: 18.8 % uploaded (9437184)
+0066.888 (0) Googledrive chunked upload: 20.9 % uploaded (10485760)
+0067.887 (0) Googledrive chunked upload: 23 % uploaded (11534336)
+0068.889 (0) Googledrive chunked upload: 25.1 % uploaded (12582912)
+0069.945 (0) Googledrive chunked upload: 27.2 % uploaded (13631488)
+0070.764 (0) Googledrive chunked upload: 29.3 % uploaded (14680064)
+0071.703 (0) Googledrive chunked upload: 31.4 % uploaded (15728640)
+0072.728 (0) Googledrive chunked upload: 33.4 % uploaded (16777216)
+0073.737 (0) Googledrive chunked upload: 35.5 % uploaded (17825792)
+0074.758 (0) Googledrive chunked upload: 37.6 % uploaded (18874368)
+0075.544 (0) Googledrive chunked upload: 39.7 % uploaded (19922944)
+0076.540 (0) Googledrive chunked upload: 41.8 % uploaded (20971520)
+0077.292 (0) Googledrive chunked upload: 43.9 % uploaded (22020096)
+0078.295 (0) Googledrive chunked upload: 46 % uploaded (23068672)
+0079.239 (0) Googledrive chunked upload: 48.1 % uploaded (24117248)
+0080.256 (0) Googledrive chunked upload: 50.2 % uploaded (25165824)
+0081.173 (0) Googledrive chunked upload: 52.3 % uploaded (26214400)
+0081.929 (0) Googledrive chunked upload: 54.3 % uploaded (27262976)
+0082.708 (0) Googledrive chunked upload: 56.4 % uploaded (28311552)
+0083.565 (0) Googledrive chunked upload: 58.5 % uploaded (29360128)
+0084.584 (0) Googledrive chunked upload: 60.6 % uploaded (30408704)
+0085.588 (0) Googledrive chunked upload: 62.7 % uploaded (31457280)
+0086.418 (0) Googledrive chunked upload: 64.8 % uploaded (32505856)
+0087.588 (0) Googledrive chunked upload: 66.9 % uploaded (33554432)
+0088.438 (0) Googledrive chunked upload: 69 % uploaded (34603008)
+0089.231 (0) Googledrive chunked upload: 71.1 % uploaded (35651584)
+0090.251 (0) Googledrive chunked upload: 73.2 % uploaded (36700160)
+0091.312 (0) Googledrive chunked upload: 75.3 % uploaded (37748736)
+0092.325 (0) Googledrive chunked upload: 77.3 % uploaded (38797312)
+0093.328 (0) Googledrive chunked upload: 79.4 % uploaded (39845888)
+0094.136 (0) Googledrive chunked upload: 81.5 % uploaded (40894464)
+0095.012 (0) Googledrive chunked upload: 83.6 % uploaded (41943040)
+0095.831 (0) Googledrive chunked upload: 85.7 % uploaded (42991616)
+0096.865 (0) Googledrive chunked upload: 87.8 % uploaded (44040192)
+0097.872 (0) Googledrive chunked upload: 89.9 % uploaded (45088768)
+0098.708 (0) Googledrive chunked upload: 92 % uploaded (46137344)
+0099.733 (0) Googledrive chunked upload: 94.1 % uploaded (47185920)
+0100.564 (0) Googledrive chunked upload: 96.2 % uploaded (48234496)
+0101.344 (0) Googledrive chunked upload: 98.2 % uploaded (49283072)
+0103.459 (0) Googledrive chunked upload: 100 % uploaded (49283072)
+0103.476 (0) Google Drive: OK: Archive backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip uploaded in 46.69 seconds
+0103.482 (0) Recording as successfully uploaded: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip
+0103.497 (0) Deleting local file: backup_2019-05-15-0640_eWizard_ac54350f6b7d-plugins.zip: OK
+0104.314 (0) Google Drive: quota usage: used=2728.5 MB, total=10488488.5 MB, available=10485760 MB
+0104.320 (0) Google Drive: backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip: Attempting to upload to Google Drive (into folder id: 1WmUKitSDNxcopBkIN8U-K8y23D-Lq2Yp)
+0106.139 (0) Googledrive chunked upload: 36.5 % uploaded (1048576)
+0106.923 (0) Googledrive chunked upload: 73 % uploaded (2097152)
+0108.869 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0108.898 (0) Google Drive: OK: Archive backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip uploaded in 4.57 seconds
+0108.903 (0) Recording as successfully uploaded: backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip
+0108.916 (0) Deleting local file: backup_2019-05-15-0640_eWizard_ac54350f6b7d-themes.zip: OK
+0109.415 (0) Google Drive: quota usage: used=2731.3 MB, total=10488491.3 MB, available=10485760 MB
+0109.422 (0) Google Drive: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip: Attempting to upload to Google Drive (into folder id: 1WmUKitSDNxcopBkIN8U-K8y23D-Lq2Yp)
+0111.133 (0) Googledrive chunked upload: 0.4 % uploaded (1048576)
+0112.021 (0) Googledrive chunked upload: 0.9 % uploaded (2097152)
+0112.978 (0) Googledrive chunked upload: 1.3 % uploaded (3145728)
+0113.772 (0) Googledrive chunked upload: 1.7 % uploaded (4194304)
+0114.508 (0) Googledrive chunked upload: 2.2 % uploaded (5242880)
+0115.524 (0) Googledrive chunked upload: 2.6 % uploaded (6291456)
+0116.285 (0) Googledrive chunked upload: 3 % uploaded (7340032)
+0117.090 (0) Googledrive chunked upload: 3.5 % uploaded (8388608)
+0118.108 (0) Googledrive chunked upload: 3.9 % uploaded (9437184)
+0119.155 (0) Googledrive chunked upload: 4.3 % uploaded (10485760)
+0119.957 (0) Googledrive chunked upload: 4.8 % uploaded (11534336)
+0120.844 (0) Googledrive chunked upload: 5.2 % uploaded (12582912)
+0121.925 (0) Googledrive chunked upload: 5.6 % uploaded (13631488)
+0122.998 (0) Googledrive chunked upload: 6.1 % uploaded (14680064)
+0124.027 (0) Googledrive chunked upload: 6.5 % uploaded (15728640)
+0124.912 (0) Googledrive chunked upload: 6.9 % uploaded (16777216)
+0125.683 (0) Googledrive chunked upload: 7.4 % uploaded (17825792)
+0126.531 (0) Googledrive chunked upload: 7.8 % uploaded (18874368)
+0127.591 (0) Googledrive chunked upload: 8.2 % uploaded (19922944)
+0128.474 (0) Googledrive chunked upload: 8.7 % uploaded (20971520)
+0129.472 (0) Googledrive chunked upload: 9.1 % uploaded (22020096)
+0130.400 (0) Googledrive chunked upload: 9.5 % uploaded (23068672)
+0131.421 (0) Googledrive chunked upload: 10 % uploaded (24117248)
+0132.485 (0) Googledrive chunked upload: 10.4 % uploaded (25165824)
+0133.284 (0) Googledrive chunked upload: 10.8 % uploaded (26214400)
+0134.254 (0) Googledrive chunked upload: 11.3 % uploaded (27262976)
+0135.263 (0) Googledrive chunked upload: 11.7 % uploaded (28311552)
+0136.256 (0) Googledrive chunked upload: 12.1 % uploaded (29360128)
+0137.029 (0) Googledrive chunked upload: 12.6 % uploaded (30408704)
+0137.802 (0) Googledrive chunked upload: 13 % uploaded (31457280)
+0138.618 (0) Googledrive chunked upload: 13.4 % uploaded (32505856)
+0139.389 (0) Googledrive chunked upload: 13.9 % uploaded (33554432)
+0140.257 (0) Googledrive chunked upload: 14.3 % uploaded (34603008)
+0141.257 (0) Googledrive chunked upload: 14.7 % uploaded (35651584)
+0142.256 (0) Googledrive chunked upload: 15.2 % uploaded (36700160)
+0143.241 (0) Googledrive chunked upload: 15.6 % uploaded (37748736)
+0144.113 (0) Googledrive chunked upload: 16 % uploaded (38797312)
+0144.974 (0) Googledrive chunked upload: 16.5 % uploaded (39845888)
+0145.795 (0) Googledrive chunked upload: 16.9 % uploaded (40894464)
+0146.526 (0) Googledrive chunked upload: 17.3 % uploaded (41943040)
+0147.289 (0) Googledrive chunked upload: 17.8 % uploaded (42991616)
+0148.287 (0) Googledrive chunked upload: 18.2 % uploaded (44040192)
+0149.296 (0) Googledrive chunked upload: 18.6 % uploaded (45088768)
+0150.083 (0) Googledrive chunked upload: 19.1 % uploaded (46137344)
+0150.953 (0) Googledrive chunked upload: 19.5 % uploaded (47185920)
+0151.971 (0) Googledrive chunked upload: 19.9 % uploaded (48234496)
+0152.726 (0) Googledrive chunked upload: 20.4 % uploaded (49283072)
+0153.734 (0) Googledrive chunked upload: 20.8 % uploaded (50331648)
+0154.514 (0) Googledrive chunked upload: 21.2 % uploaded (51380224)
+0155.551 (0) Googledrive chunked upload: 21.7 % uploaded (52428800)
+0156.553 (0) Googledrive chunked upload: 22.1 % uploaded (53477376)
+0157.347 (0) Googledrive chunked upload: 22.5 % uploaded (54525952)
+0158.099 (0) Googledrive chunked upload: 23 % uploaded (55574528)
+0158.944 (0) Googledrive chunked upload: 23.4 % uploaded (56623104)
+0159.812 (0) Googledrive chunked upload: 23.8 % uploaded (57671680)
+0160.579 (0) Googledrive chunked upload: 24.3 % uploaded (58720256)
+0161.587 (0) Googledrive chunked upload: 24.7 % uploaded (59768832)
+0162.422 (0) Googledrive chunked upload: 25.1 % uploaded (60817408)
+0163.287 (0) Googledrive chunked upload: 25.6 % uploaded (61865984)
+0164.275 (0) Googledrive chunked upload: 26 % uploaded (62914560)
+0165.108 (0) Googledrive chunked upload: 26.4 % uploaded (63963136)
+0166.039 (0) Googledrive chunked upload: 26.9 % uploaded (65011712)
+0167.050 (0) Googledrive chunked upload: 27.3 % uploaded (66060288)
+0167.943 (0) Googledrive chunked upload: 27.7 % uploaded (67108864)
+0168.775 (0) Googledrive chunked upload: 28.2 % uploaded (68157440)
+0169.773 (0) Googledrive chunked upload: 28.6 % uploaded (69206016)
+0170.551 (0) Googledrive chunked upload: 29 % uploaded (70254592)
+0171.434 (0) Googledrive chunked upload: 29.5 % uploaded (71303168)
+0172.204 (0) Googledrive chunked upload: 29.9 % uploaded (72351744)
+0172.980 (0) Googledrive chunked upload: 30.3 % uploaded (73400320)
+0173.743 (0) Googledrive chunked upload: 30.8 % uploaded (74448896)
+0174.578 (0) Googledrive chunked upload: 31.2 % uploaded (75497472)
+0175.586 (0) Googledrive chunked upload: 31.6 % uploaded (76546048)
+0176.456 (0) Googledrive chunked upload: 32.1 % uploaded (77594624)
+0177.284 (0) Googledrive chunked upload: 32.5 % uploaded (78643200)
+0178.285 (0) Googledrive chunked upload: 32.9 % uploaded (79691776)
+0179.295 (0) Googledrive chunked upload: 33.4 % uploaded (80740352)
+0180.287 (0) Googledrive chunked upload: 33.8 % uploaded (81788928)
+0181.018 (0) Googledrive chunked upload: 34.2 % uploaded (82837504)
+0181.858 (0) Googledrive chunked upload: 34.7 % uploaded (83886080)
+0182.650 (0) Googledrive chunked upload: 35.1 % uploaded (84934656)
+0183.657 (0) Googledrive chunked upload: 35.5 % uploaded (85983232)
+0184.466 (0) Googledrive chunked upload: 36 % uploaded (87031808)
+0185.303 (0) Googledrive chunked upload: 36.4 % uploaded (88080384)
+0186.083 (0) Googledrive chunked upload: 36.8 % uploaded (89128960)
+0186.833 (0) Googledrive chunked upload: 37.3 % uploaded (90177536)
+0187.693 (0) Googledrive chunked upload: 37.7 % uploaded (91226112)
+0188.700 (0) Googledrive chunked upload: 38.1 % uploaded (92274688)
+0189.515 (0) Googledrive chunked upload: 38.6 % uploaded (93323264)
+0190.266 (0) Googledrive chunked upload: 39 % uploaded (94371840)
+0191.033 (0) Googledrive chunked upload: 39.4 % uploaded (95420416)
+0192.033 (0) Googledrive chunked upload: 39.9 % uploaded (96468992)
+0192.823 (0) Googledrive chunked upload: 40.3 % uploaded (97517568)
+0193.809 (0) Googledrive chunked upload: 40.7 % uploaded (98566144)
+0194.614 (0) Googledrive chunked upload: 41.2 % uploaded (99614720)
+0195.441 (0) Googledrive chunked upload: 41.6 % uploaded (100663296)
+0196.373 (0) Googledrive chunked upload: 42 % uploaded (101711872)
+0197.359 (0) Googledrive chunked upload: 42.5 % uploaded (102760448)
+0198.347 (0) Googledrive chunked upload: 42.9 % uploaded (103809024)
+0199.170 (0) Googledrive chunked upload: 43.3 % uploaded (104857600)
+0199.947 (0) Googledrive chunked upload: 43.8 % uploaded (105906176)
+0200.976 (0) Googledrive chunked upload: 44.2 % uploaded (106954752)
+0201.750 (0) Googledrive chunked upload: 44.6 % uploaded (108003328)
+0202.613 (0) Googledrive chunked upload: 45.1 % uploaded (109051904)
+0203.452 (0) Googledrive chunked upload: 45.5 % uploaded (110100480)
+0204.288 (0) Googledrive chunked upload: 45.9 % uploaded (111149056)
+0205.290 (0) Googledrive chunked upload: 46.4 % uploaded (112197632)
+0206.050 (0) Googledrive chunked upload: 46.8 % uploaded (113246208)
+0207.079 (0) Googledrive chunked upload: 47.2 % uploaded (114294784)
+0208.092 (0) Googledrive chunked upload: 47.7 % uploaded (115343360)
+0208.854 (0) Googledrive chunked upload: 48.1 % uploaded (116391936)
+0209.627 (0) Googledrive chunked upload: 48.5 % uploaded (117440512)
+0210.618 (0) Googledrive chunked upload: 49 % uploaded (118489088)
+0211.388 (0) Googledrive chunked upload: 49.4 % uploaded (119537664)
+0212.382 (0) Googledrive chunked upload: 49.8 % uploaded (120586240)
+0213.405 (0) Googledrive chunked upload: 50.3 % uploaded (121634816)
+0214.183 (0) Googledrive chunked upload: 50.7 % uploaded (122683392)
+0215.051 (0) Googledrive chunked upload: 51.1 % uploaded (123731968)
+0215.821 (0) Googledrive chunked upload: 51.6 % uploaded (124780544)
+0216.588 (0) Googledrive chunked upload: 52 % uploaded (125829120)
+0217.417 (0) Googledrive chunked upload: 52.4 % uploaded (126877696)
+0218.180 (0) Googledrive chunked upload: 52.9 % uploaded (127926272)
+0219.023 (0) Googledrive chunked upload: 53.3 % uploaded (128974848)
+0219.949 (0) Googledrive chunked upload: 53.7 % uploaded (130023424)
+0220.700 (0) Googledrive chunked upload: 54.2 % uploaded (131072000)
+0221.683 (0) Googledrive chunked upload: 54.6 % uploaded (132120576)
+0222.675 (0) Googledrive chunked upload: 55 % uploaded (133169152)
+0223.447 (0) Googledrive chunked upload: 55.5 % uploaded (134217728)
+0224.257 (0) Googledrive chunked upload: 55.9 % uploaded (135266304)
+0225.128 (0) Googledrive chunked upload: 56.3 % uploaded (136314880)
+0226.140 (0) Googledrive chunked upload: 56.8 % uploaded (137363456)
+0226.906 (0) Googledrive chunked upload: 57.2 % uploaded (138412032)
+0227.698 (0) Googledrive chunked upload: 57.6 % uploaded (139460608)
+0228.701 (0) Googledrive chunked upload: 58.1 % uploaded (140509184)
+0229.545 (0) Googledrive chunked upload: 58.5 % uploaded (141557760)
+0230.385 (0) Googledrive chunked upload: 58.9 % uploaded (142606336)
+0231.149 (0) Googledrive chunked upload: 59.4 % uploaded (143654912)
+0231.966 (0) Googledrive chunked upload: 59.8 % uploaded (144703488)
+0232.824 (0) Googledrive chunked upload: 60.2 % uploaded (145752064)
+0233.605 (0) Googledrive chunked upload: 60.7 % uploaded (146800640)
+0234.376 (0) Googledrive chunked upload: 61.1 % uploaded (147849216)
+0235.144 (0) Googledrive chunked upload: 61.5 % uploaded (148897792)
+0236.000 (0) Googledrive chunked upload: 62 % uploaded (149946368)
+0237.022 (0) Googledrive chunked upload: 62.4 % uploaded (150994944)
+0238.026 (0) Googledrive chunked upload: 62.8 % uploaded (152043520)
+0238.888 (0) Googledrive chunked upload: 63.3 % uploaded (153092096)
+0239.899 (0) Googledrive chunked upload: 63.7 % uploaded (154140672)
+0240.916 (0) Googledrive chunked upload: 64.1 % uploaded (155189248)
+0241.954 (0) Googledrive chunked upload: 64.6 % uploaded (156237824)
+0242.961 (0) Googledrive chunked upload: 65 % uploaded (157286400)
+0243.807 (0) Googledrive chunked upload: 65.4 % uploaded (158334976)
+0244.753 (0) Googledrive chunked upload: 65.9 % uploaded (159383552)
+0245.550 (0) Googledrive chunked upload: 66.3 % uploaded (160432128)
+0246.386 (0) Googledrive chunked upload: 66.7 % uploaded (161480704)
+0247.248 (0) Googledrive chunked upload: 67.2 % uploaded (162529280)
+0248.027 (0) Googledrive chunked upload: 67.6 % uploaded (163577856)
+0249.009 (0) Googledrive chunked upload: 68 % uploaded (164626432)
+0250.021 (0) Googledrive chunked upload: 68.5 % uploaded (165675008)
+0251.036 (0) Googledrive chunked upload: 68.9 % uploaded (166723584)
+0251.944 (0) Googledrive chunked upload: 69.3 % uploaded (167772160)
+0252.940 (0) Googledrive chunked upload: 69.8 % uploaded (168820736)
+0253.951 (0) Googledrive chunked upload: 70.2 % uploaded (169869312)
+0254.829 (0) Googledrive chunked upload: 70.6 % uploaded (170917888)
+0255.609 (0) Googledrive chunked upload: 71.1 % uploaded (171966464)
+0256.544 (0) Googledrive chunked upload: 71.5 % uploaded (173015040)
+0257.296 (0) Googledrive chunked upload: 71.9 % uploaded (174063616)
+0258.114 (0) Googledrive chunked upload: 72.4 % uploaded (175112192)
+0258.870 (0) Googledrive chunked upload: 72.8 % uploaded (176160768)
+0259.688 (0) Googledrive chunked upload: 73.2 % uploaded (177209344)
+0260.664 (0) Googledrive chunked upload: 73.7 % uploaded (178257920)
+0261.463 (0) Googledrive chunked upload: 74.1 % uploaded (179306496)
+0262.276 (0) Googledrive chunked upload: 74.5 % uploaded (180355072)
+0263.263 (0) Googledrive chunked upload: 75 % uploaded (181403648)
+0264.064 (0) Googledrive chunked upload: 75.4 % uploaded (182452224)
+0264.892 (0) Googledrive chunked upload: 75.8 % uploaded (183500800)
+0265.764 (0) Googledrive chunked upload: 76.3 % uploaded (184549376)
+0266.588 (0) Googledrive chunked upload: 76.7 % uploaded (185597952)
+0267.474 (0) Googledrive chunked upload: 77.1 % uploaded (186646528)
+0268.233 (0) Googledrive chunked upload: 77.6 % uploaded (187695104)
+0269.210 (0) Googledrive chunked upload: 78 % uploaded (188743680)
+0269.993 (0) Googledrive chunked upload: 78.4 % uploaded (189792256)
+0270.984 (0) Googledrive chunked upload: 78.9 % uploaded (190840832)
+0272.004 (0) Googledrive chunked upload: 79.3 % uploaded (191889408)
+0272.776 (0) Googledrive chunked upload: 79.7 % uploaded (192937984)
+0273.569 (0) Googledrive chunked upload: 80.2 % uploaded (193986560)
+0274.437 (0) Googledrive chunked upload: 80.6 % uploaded (195035136)
+0275.449 (0) Googledrive chunked upload: 81 % uploaded (196083712)
+0276.248 (0) Googledrive chunked upload: 81.5 % uploaded (197132288)
+0277.091 (0) Googledrive chunked upload: 81.9 % uploaded (198180864)
+0277.902 (0) Googledrive chunked upload: 82.3 % uploaded (199229440)
+0278.876 (0) Googledrive chunked upload: 82.8 % uploaded (200278016)
+0279.672 (0) Googledrive chunked upload: 83.2 % uploaded (201326592)
+0280.685 (0) Googledrive chunked upload: 83.6 % uploaded (202375168)
+0281.493 (0) Googledrive chunked upload: 84.1 % uploaded (203423744)
+0282.327 (0) Googledrive chunked upload: 84.5 % uploaded (204472320)
+0283.342 (0) Googledrive chunked upload: 84.9 % uploaded (205520896)
+0284.324 (0) Googledrive chunked upload: 85.4 % uploaded (206569472)
+0285.204 (0) Googledrive chunked upload: 85.8 % uploaded (207618048)
+0286.213 (0) Googledrive chunked upload: 86.2 % uploaded (208666624)
+0287.041 (0) Googledrive chunked upload: 86.7 % uploaded (209715200)
+0287.923 (0) Googledrive chunked upload: 87.1 % uploaded (210763776)
+0288.696 (0) Googledrive chunked upload: 87.5 % uploaded (211812352)
+0289.526 (0) Googledrive chunked upload: 88 % uploaded (212860928)
+0290.388 (0) Googledrive chunked upload: 88.4 % uploaded (213909504)
+0291.192 (0) Googledrive chunked upload: 88.8 % uploaded (214958080)
+0291.995 (0) Googledrive chunked upload: 89.3 % uploaded (216006656)
+0293.042 (0) Googledrive chunked upload: 89.7 % uploaded (217055232)
+0293.810 (0) Googledrive chunked upload: 90.1 % uploaded (218103808)
+0294.656 (0) Googledrive chunked upload: 90.6 % uploaded (219152384)
+0295.514 (0) Googledrive chunked upload: 91 % uploaded (220200960)
+0296.376 (0) Googledrive chunked upload: 91.4 % uploaded (221249536)
+0297.374 (0) Googledrive chunked upload: 91.9 % uploaded (222298112)
+0298.238 (0) Googledrive chunked upload: 92.3 % uploaded (223346688)
+0299.250 (0) Googledrive chunked upload: 92.7 % uploaded (224395264)
+0300.342 (0) Googledrive chunked upload: 93.2 % uploaded (225443840)
+0301.105 (0) Googledrive chunked upload: 93.6 % uploaded (226492416)
+0302.123 (0) Googledrive chunked upload: 94 % uploaded (227540992)
+0302.904 (0) Googledrive chunked upload: 94.5 % uploaded (228589568)
+0303.738 (0) Googledrive chunked upload: 94.9 % uploaded (229638144)
+0304.736 (0) Googledrive chunked upload: 95.3 % uploaded (230686720)
+0305.555 (0) Googledrive chunked upload: 95.8 % uploaded (231735296)
+0306.556 (0) Googledrive chunked upload: 96.2 % uploaded (232783872)
+0307.556 (0) Googledrive chunked upload: 96.6 % uploaded (233832448)
+0308.402 (0) Googledrive chunked upload: 97.1 % uploaded (234881024)
+0309.299 (0) Googledrive chunked upload: 97.5 % uploaded (235929600)
+0310.364 (0) Googledrive chunked upload: 97.9 % uploaded (236978176)
+0311.421 (0) Googledrive chunked upload: 98.4 % uploaded (238026752)
+0312.437 (0) Googledrive chunked upload: 98.8 % uploaded (239075328)
+0313.311 (0) Googledrive chunked upload: 99.2 % uploaded (240123904)
+0314.313 (0) The scheduled resumption is within 45 seconds - will reschedule
+0314.325 (0) Rescheduling resumption 1: moving to 404 seconds from now (1557903147)
+0314.343 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 359 + 45 = 404
+0314.348 (0) Googledrive chunked upload: 99.7 % uploaded (241172480)
+0316.441 (0) Googledrive chunked upload: 100 % uploaded (241172480)
+0316.459 (0) Google Drive: OK: Archive backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip uploaded in 207.03 seconds
+0316.464 (0) Recording as successfully uploaded: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip
+0316.490 (0) Deleting local file: backup_2019-05-15-0640_eWizard_ac54350f6b7d-uploads.zip: OK
+0317.000 (0) Google Drive: quota usage: used=2962.1 MB, total=10488722.1 MB, available=10485760 MB
+0317.007 (0) Google Drive: backup_2019-05-15-0640_eWizard_ac54350f6b7d-others.zip: Attempting to upload to Google Drive (into folder id: 1WmUKitSDNxcopBkIN8U-K8y23D-Lq2Yp)
+0318.982 (0) Googledrive chunked upload: 100 % uploaded
+0318.999 (0) Google Drive: OK: Archive backup_2019-05-15-0640_eWizard_ac54350f6b7d-others.zip uploaded in 1.99 seconds
+0319.005 (0) Recording as successfully uploaded: backup_2019-05-15-0640_eWizard_ac54350f6b7d-others.zip
+0319.016 (0) Deleting local file: backup_2019-05-15-0640_eWizard_ac54350f6b7d-others.zip: OK
+0319.499 (0) Google Drive: quota usage: used=2962.1 MB, total=10488722.1 MB, available=10485760 MB
+0319.505 (0) Google Drive: backup_2019-05-15-0640_eWizard_ac54350f6b7d-db.gz: Attempting to upload to Google Drive (into folder id: 1WmUKitSDNxcopBkIN8U-K8y23D-Lq2Yp)
+0321.123 (0) Googledrive chunked upload: 29.8 % uploaded (1048576)
+0321.987 (0) Googledrive chunked upload: 59.5 % uploaded (2097152)
+0323.018 (0) Googledrive chunked upload: 89.3 % uploaded (3145728)
+0324.731 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0324.748 (0) Google Drive: OK: Archive backup_2019-05-15-0640_eWizard_ac54350f6b7d-db.gz uploaded in 5.24 seconds
+0324.753 (0) Recording as successfully uploaded: backup_2019-05-15-0640_eWizard_ac54350f6b7d-db.gz
+0324.765 (0) Deleting local file: backup_2019-05-15-0640_eWizard_ac54350f6b7d-db.gz: OK
+0324.781 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=50, retain_db=50
+0324.787 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1556844720, 1556795880, 1556789520, 1556784720, 1555927440, 1555456440, 1555137000
+0324.791 (0) Number of backup sets in history: 14; groups (db): 1
+0324.798 (0) Examining (for databases) backup set with group_id=0, nonce=ac54350f6b7d, datestamp=1557902429 (May 15 2019 06:40:29)
+0324.806 (0) This backup set is the backup set just made, so will not be deleted.
+0324.807 (0) Examining (for databases) backup set with group_id=0, nonce=c664a4597032, datestamp=1557795340 (May 14 2019 00:55:40)
+0324.811 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.816 (0) Examining (for databases) backup set with group_id=0, nonce=70f507e880ec, datestamp=1557708296 (May 13 2019 00:44:56)
+0324.816 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.816 (0) Examining (for databases) backup set with group_id=0, nonce=fafa8a0acba7, datestamp=1557465216 (May 10 2019 05:13:36)
+0324.816 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.816 (0) Examining (for databases) backup set with group_id=0, nonce=c5edb9be4ec3, datestamp=1557188745 (May 07 2019 00:25:45)
+0324.816 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.816 (0) Examining (for databases) backup set with group_id=0, nonce=f5e5a95e0e24, datestamp=1556990576 (May 04 2019 17:22:56)
+0324.816 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.816 (0) Examining (for databases) backup set with group_id=0, nonce=6a298502db92, datestamp=1556950586 (May 04 2019 06:16:26)
+0324.816 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.816 (0) Number of backup sets in history: 14; groups (files): 1
+0324.822 (0) Examining (for files) backup set with nonce=ac54350f6b7d, datestamp=1557902429 (May 15 2019 06:40:29)
+0324.822 (0) This backup set is the backup set just made, so will not be deleted.
+0324.828 (0) This backup set is the backup set just made, so will not be deleted.
+0324.828 (0) This backup set is the backup set just made, so will not be deleted.
+0324.828 (0) This backup set is the backup set just made, so will not be deleted.
+0324.829 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.835 (0) Examining (for files) backup set with nonce=c664a4597032, datestamp=1557795340 (May 14 2019 00:55:40)
+0324.835 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.836 (0) Examining (for files) backup set with nonce=70f507e880ec, datestamp=1557708296 (May 13 2019 00:44:56)
+0324.836 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.836 (0) Examining (for files) backup set with nonce=fafa8a0acba7, datestamp=1557465216 (May 10 2019 05:13:36)
+0324.836 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.836 (0) Examining (for files) backup set with nonce=c5edb9be4ec3, datestamp=1557188745 (May 07 2019 00:25:45)
+0324.836 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.836 (0) Examining (for files) backup set with nonce=f5e5a95e0e24, datestamp=1556990576 (May 04 2019 17:22:56)
+0324.836 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.836 (0) Examining (for files) backup set with nonce=6a298502db92, datestamp=1556950586 (May 04 2019 06:16:26)
+0324.836 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0324.836 (0) Retain: saving new backup history (sets now: 14) and finishing retain operation
+0324.848 (0) Resume backup (ac54350f6b7d, 0): finish run
+0324.866 (0) Decremented the semaphore (fd) by 1
+0324.914 (0) Semaphore (fd) unlocked
+0324.964 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0324.986 (0) No email will/can be sent - the user has not configured an email address.
+0324.993 (0) The backup apparently succeeded and is now complete
